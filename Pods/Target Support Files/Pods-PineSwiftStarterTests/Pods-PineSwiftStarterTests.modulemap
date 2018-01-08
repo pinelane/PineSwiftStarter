@@ -1,0 +1,6 @@
+framework module Pods_PineSwiftStarterTests {
+  umbrella header "Pods-PineSwiftStarterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

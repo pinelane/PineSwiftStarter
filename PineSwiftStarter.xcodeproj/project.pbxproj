@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4257A2B620036E7A001D3CA3 /* PineBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4257A2B520036E7A001D3CA3 /* PineBaseViewController.swift */; };
 		427D1AF620036676008386F7 /* PineSwiftStarter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427D1AEC20036676008386F7 /* PineSwiftStarter.framework */; };
 		427D1AFB20036676008386F7 /* PineSwiftStarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D1AFA20036676008386F7 /* PineSwiftStarterTests.swift */; };
 		427D1AFD20036676008386F7 /* PineSwiftStarter.h in Headers */ = {isa = PBXBuildFile; fileRef = 427D1AEF20036676008386F7 /* PineSwiftStarter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877FC76EE13428B8F6BAA6F0 /* Pods_PineSwiftStarterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD33C5FACF3B0F61D48B3B15 /* Pods_PineSwiftStarterTests.framework */; };
+		AE2A7C590025AA1C856EF417 /* Pods_PineSwiftStarter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAC3AF3539AFA1E8F20F379 /* Pods_PineSwiftStarter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4257A2B520036E7A001D3CA3 /* PineBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PineBaseViewController.swift; sourceTree = "<group>"; };
 		427D1AEC20036676008386F7 /* PineSwiftStarter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PineSwiftStarter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		427D1AEF20036676008386F7 /* PineSwiftStarter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PineSwiftStarter.h; sourceTree = "<group>"; };
 		427D1AF020036676008386F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		427D1AF520036676008386F7 /* PineSwiftStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PineSwiftStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		427D1AFA20036676008386F7 /* PineSwiftStarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PineSwiftStarterTests.swift; sourceTree = "<group>"; };
 		427D1AFC20036676008386F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD33C5FACF3B0F61D48B3B15 /* Pods_PineSwiftStarterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PineSwiftStarterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48FCC2A90E3E630DC646316 /* Pods-PineSwiftStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineSwiftStarterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PineSwiftStarterTests/Pods-PineSwiftStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB5EAC0D456DD0046984B93D /* Pods-PineSwiftStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineSwiftStarterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PineSwiftStarterTests/Pods-PineSwiftStarterTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAAC3AF3539AFA1E8F20F379 /* Pods_PineSwiftStarter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PineSwiftStarter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF4D97CA557C30647D48F01 /* Pods-PineSwiftStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineSwiftStarter.release.xcconfig"; path = "Pods/Target Support Files/Pods-PineSwiftStarter/Pods-PineSwiftStarter.release.xcconfig"; sourceTree = "<group>"; };
+		F8235A0BE948555F42BCB7E7 /* Pods-PineSwiftStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineSwiftStarter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PineSwiftStarter/Pods-PineSwiftStarter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2A7C590025AA1C856EF417 /* Pods_PineSwiftStarter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +55,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				427D1AF620036676008386F7 /* PineSwiftStarter.framework in Frameworks */,
+				877FC76EE13428B8F6BAA6F0 /* Pods_PineSwiftStarterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29064DA2F36A7DA0BA19FC0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAAC3AF3539AFA1E8F20F379 /* Pods_PineSwiftStarter.framework */,
+				AD33C5FACF3B0F61D48B3B15 /* Pods_PineSwiftStarterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33681D1F56477D40EDAC0322 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8235A0BE948555F42BCB7E7 /* Pods-PineSwiftStarter.debug.xcconfig */,
+				EDF4D97CA557C30647D48F01 /* Pods-PineSwiftStarter.release.xcconfig */,
+				B48FCC2A90E3E630DC646316 /* Pods-PineSwiftStarterTests.debug.xcconfig */,
+				BB5EAC0D456DD0046984B93D /* Pods-PineSwiftStarterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4257A2B720037184001D3CA3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4257A2B520036E7A001D3CA3 /* PineBaseViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		427D1AE220036675008386F7 = {
 			isa = PBXGroup;
 			children = (
+				4257A2B720037184001D3CA3 /* Source */,
 				427D1AEE20036676008386F7 /* PineSwiftStarter */,
 				427D1AF920036676008386F7 /* PineSwiftStarterTests */,
 				427D1AED20036676008386F7 /* Products */,
+				33681D1F56477D40EDAC0322 /* Pods */,
+				29064DA2F36A7DA0BA19FC0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427D1B0020036676008386F7 /* Build configuration list for PBXNativeTarget "PineSwiftStarter" */;
 			buildPhases = (
+				41E21D983D2C53BCE4F459BE /* [CP] Check Pods Manifest.lock */,
 				427D1AE720036675008386F7 /* Sources */,
 				427D1AE820036675008386F7 /* Frameworks */,
 				427D1AE920036675008386F7 /* Headers */,
 				427D1AEA20036675008386F7 /* Resources */,
+				E6809FFA27D8167619E28A05 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427D1B0320036676008386F7 /* Build configuration list for PBXNativeTarget "PineSwiftStarterTests" */;
 			buildPhases = (
+				5DF8CE26EDECC4CE459957EC /* [CP] Check Pods Manifest.lock */,
 				427D1AF120036676008386F7 /* Sources */,
 				427D1AF220036676008386F7 /* Frameworks */,
 				427D1AF320036676008386F7 /* Resources */,
+				7121D52EDD3A2529397496C2 /* [CP] Embed Pods Frameworks */,
+				4331971B1ACC2025BFE859BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +196,7 @@
 				TargetAttributes = {
 					427D1AEB20036675008386F7 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					427D1AF420036676008386F7 = {
@@ -191,11 +240,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41E21D983D2C53BCE4F459BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4331971B1ACC2025BFE859BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PineSwiftStarterTests/Pods-PineSwiftStarterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DF8CE26EDECC4CE459957EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7121D52EDD3A2529397496C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PineSwiftStarterTests/Pods-PineSwiftStarterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6809FFA27D8167619E28A05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PineSwiftStarter/Pods-PineSwiftStarter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		427D1AE720036675008386F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4257A2B620036E7A001D3CA3 /* PineBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +461,9 @@
 		};
 		427D1B0120036676008386F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8235A0BE948555F42BCB7E7 /* Pods-PineSwiftStarter.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = in.pinelane.swiftstarter.PineSwiftStarter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,7 +485,9 @@
 		};
 		427D1B0220036676008386F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF4D97CA557C30647D48F01 /* Pods-PineSwiftStarter.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -375,7 +508,9 @@
 		};
 		427D1B0420036676008386F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48FCC2A90E3E630DC646316 /* Pods-PineSwiftStarterTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3D8DFK2726;
 				INFOPLIST_FILE = PineSwiftStarterTests/Info.plist;
@@ -389,7 +524,9 @@
 		};
 		427D1B0520036676008386F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5EAC0D456DD0046984B93D /* Pods-PineSwiftStarterTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3D8DFK2726;
 				INFOPLIST_FILE = PineSwiftStarterTests/Info.plist;
