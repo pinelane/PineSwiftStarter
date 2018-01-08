@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A Starter Kit of iOS Swift Application Development"
   s.homepage     = "http://pinelane.surge.sh"
-  s.license      = "MIT"
+  s.license      = {type: "MIT", file: "LICENSE"}
   s.author             = { "Prakash Raman" => "prakash.raman.ka@gmail.com" }
 
   # s.platform     = :ios
