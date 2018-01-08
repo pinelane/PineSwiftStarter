@@ -1,16 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "PineSwiftStarter"
   s.version      = "0.0.1"
-  s.summary      = "A short description of PineSwiftStarter."
-  s.description  = <<-DESC
-                    A Starter Kit of iOS Swift Application Development
-                   DESC
-
-  s.homepage     = "http://EXAMPLE/PineSwiftStarter"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
+  s.summary      = "A Starter Kit of iOS Swift Application Development"
+  s.homepage     = "http://pinelane.surge.sh"
   s.license      = "MIT"
-
   s.author             = { "Prakash Raman" => "prakash.raman.ka@gmail.com" }
 
   # s.platform     = :ios
