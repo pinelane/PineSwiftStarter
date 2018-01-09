@@ -1,5 +1,5 @@
 PineSwiftStarter is an iOS Swift Starter Kit. 
-
+ 
 ## Motivation
 
 Very project regardless of the platform always requires a boilerplate code. Boilerplate code can act as a large time saver but at the same time it brings in a lot more convention and code standard to the project. 
