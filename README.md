@@ -93,8 +93,11 @@ self.setupScrollableStackView()
 ```
 Initialises and sets up a scroll stack view. This too should be called from the **setup()** function before any elements are inserted into the self.view. Views can be added using the addArrangedView method
 
+#### func getStackView()
+Returns the reference to the stackview which has been initialized
 
-
+#### func getScrollView()
+Returns the reference to the scroll view which has been initialized
 
 ## Contributors
 
