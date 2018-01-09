@@ -33,6 +33,24 @@ All the setup code for the View Controller should be placed in this function and
 - This function should always call its super function. super.setup()
 - viewDidLoad could be used instead of using setup(), but that would defeat the purpose of the setup() function
 
+#### func getPrefferedLeftBarImage() -> UIImage?
+```
+override func getPrefferedLeftBarImage() -> UIImage? {
+   return UIImage(named: "image")
+}
+```
+
+Determines the left button image to be rendered on the navigation controller
+
+#### func getPrefferedRightBarImage() -> UIImage?
+```
+override func getPrefferedRightBarImage() -> UIImage? {
+   return UIImage(named: "image")
+}
+```
+
+Determines the right button image to be rendered on the navigation controller
+
 
 ## Contributors
 
