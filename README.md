@@ -51,6 +51,50 @@ override func getPrefferedRightBarImage() -> UIImage? {
 
 Determines the right button image to be rendered on the navigation controller
 
+#### func getPrefferedLeftBarAction() -> void
+```
+override func getPrefferedLeftBarAction() -> UIImage? {
+	print("Left Button is Clicked")
+}
+```
+
+Is invoked when the left bar button is tapped
+
+#### func getPrefferedRightBarAction() -> void
+```
+override func getPrefferedRightBarAction() -> UIImage? {
+	print("Right Button is Clicked")
+}
+```
+
+Is invoked when the right bar button is tapped
+
+#### func setupStackView()
+```
+self.setupStackView()
+```
+Initialises and sets up a PineVerticalStackView as an underlaying view. Should be called from within the setup function before any elements are inserted into the self.view. UIViews should be added by to the inserted stacked view. 
+```
+self.getStackView().addArrangedView(view)
+
+# or
+let v1 = UIView()
+v1.backgroundColor = UIColor.red
+let v2 = UIView()
+v2.backgroundColor = UIColor.blue
+self.getStackView()?.addArrangedSubviews([v1, v2])
+v1.easy.layout(Width().like(self.view), Height(200))
+v2.easy.layout(Width().like(self.view), Height(200))
+```
+
+#### func setupScrollableStackView()
+```
+self.setupScrollableStackView()
+```
+Initialises and sets up a scroll stack view. This too should be called from the **setup()** function before any elements are inserted into the self.view. Views can be added using the addArrangedView method
+
+
+
 
 ## Contributors
 
