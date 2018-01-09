@@ -1,31 +1,43 @@
-## Synopsis
-
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
-
-## Code Example
-
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+PineSwiftStarter is an iOS Swift Starter Kit. 
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+Very project regardless of the platform always requires a boilerplate code. Boilerplate code can act as a large time saver but at the same time it brings in a lot more convention and code standard to the project. 
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+```
+pod install PineSwiftStarter
+```
+
 
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+The library contains a number of Class/Base Classes that can be use in the project. 
 
-## Tests
+### PineBaseViewController : UIViewControler
+The PineBaseViewController should be used a base class to all the view controllers in the project. Most of the methods in this class can be overridden in the implementation of the ViewController
 
-Describe and show how to run the tests with code examples.
+#### func setup() -> void
+``` 
+override func setup() {
+	super.setup()
+    # code 
+}
+```
+
+The **setup** function is internally and automatically called by the *viewDidLoad* function in the life cycle of the View Controller. 
+
+All the setup code for the View Controller should be placed in this function and not viewDidLoad. 
+
+- This function should always call its super function. super.setup()
+- viewDidLoad could be used instead of using setup(), but that would defeat the purpose of the setup() function
+
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+Everyone at Pine Lane maitain and contribute to PineSwiftStarter
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+MIT
