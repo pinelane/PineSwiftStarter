@@ -99,6 +99,15 @@ Returns the reference to the stackview which has been initialized
 #### func getScrollView()
 Returns the reference to the scroll view which has been initialized
 
+### Extension : UIView
+
+#### func addSubviews(_ views : UIView...)
+A helper function which interated over the "views" array and calls self.addSubview(view) for each
+```
+self.view.addSubviews(button, label, heading)
+```
+
+
 ## Contributors
 
 Everyone at Pine Lane maitain and contribute to PineSwiftStarter
