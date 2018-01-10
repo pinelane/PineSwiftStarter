@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PineSwiftStarter"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A Starter Kit of iOS Swift Application Development"
   s.homepage     = "http://pinelane.surge.sh"
   s.license      = {type: "MIT", file: "LICENSE"}
