@@ -1,12 +1,15 @@
 PODS:
+  - Alamofire (4.6.0)
   - EasyPeasy (1.6.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.5)
   - EasyPeasy (~> 1.6.0)
 
 SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   EasyPeasy: aef0a77d7e7636d6b5e046194bc911b0a8d73c88
 
-PODFILE CHECKSUM: 8412432b8c02b393f4e4803432a1757f1fccd578
+PODFILE CHECKSUM: 28e46e058b18ddf9da425fe288a5b4e71a2a0b04
 
 COCOAPODS: 1.2.0

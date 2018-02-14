@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4204CE462034618A003A7B5F /* PineHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204CE452034618A003A7B5F /* PineHttp.swift */; };
 		42468A5D2006A8250049B8A8 /* PineExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42468A5C2006A8250049B8A8 /* PineExtensions.swift */; };
 		424EA5BE2004980600B18E14 /* PineVerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424EA5BD2004980600B18E14 /* PineVerticalStackView.swift */; };
 		4257A2B620036E7A001D3CA3 /* PineBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4257A2B520036E7A001D3CA3 /* PineBaseViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4204CE452034618A003A7B5F /* PineHttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PineHttp.swift; sourceTree = "<group>"; };
 		42468A5C2006A8250049B8A8 /* PineExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PineExtensions.swift; sourceTree = "<group>"; };
 		424EA5BD2004980600B18E14 /* PineVerticalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PineVerticalStackView.swift; sourceTree = "<group>"; };
 		4257A2B520036E7A001D3CA3 /* PineBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PineBaseViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				4257A2B520036E7A001D3CA3 /* PineBaseViewController.swift */,
 				424EA5BD2004980600B18E14 /* PineVerticalStackView.swift */,
 				42468A5C2006A8250049B8A8 /* PineExtensions.swift */,
+				4204CE452034618A003A7B5F /* PineHttp.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42468A5D2006A8250049B8A8 /* PineExtensions.swift in Sources */,
+				4204CE462034618A003A7B5F /* PineHttp.swift in Sources */,
 				4257A2B620036E7A001D3CA3 /* PineBaseViewController.swift in Sources */,
 				424EA5BE2004980600B18E14 /* PineVerticalStackView.swift in Sources */,
 			);

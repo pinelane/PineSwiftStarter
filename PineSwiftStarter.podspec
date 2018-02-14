@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PineSwiftStarter"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A Starter Kit of iOS Swift Application Development"
   s.homepage     = "http://pinelane.surge.sh"
   s.license      = {type: "MIT", file: "LICENSE"}
@@ -76,5 +76,7 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "EasyPeasy", "~> 1.6.0"
+  s.dependency 'Alamofire', '~> 4.5'
+  s.dependency "SwiftyJSON", "~> 4.0.0"
 
 end
